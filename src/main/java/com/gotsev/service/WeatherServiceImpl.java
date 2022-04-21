@@ -28,10 +28,10 @@ public class WeatherServiceImpl implements WeatherService {
         this.properties = properties;
     }
 
-    private WeatherProperties properties;
+    private final WeatherProperties properties;
 
     String url = "https://api.openweathermap.org/data/2.5/weather?";
-    private ObjectMapper objectMapper = new ObjectMapper();
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
 
     @SneakyThrows
