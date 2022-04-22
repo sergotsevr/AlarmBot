@@ -30,7 +30,7 @@ public class WeatherServiceImpl implements WeatherService {
 
     private final WeatherProperties properties;
 
-    String url = "https://api.openweathermap.org/data/2.5/weather?";
+    String url = "https://api.openweathermap.org/data/2.5/weather";
     private final ObjectMapper objectMapper = new ObjectMapper();
 
 
