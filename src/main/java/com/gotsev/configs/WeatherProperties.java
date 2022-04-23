@@ -10,4 +10,6 @@ public class WeatherProperties {
 
     @Value("${weather.appid}")
     private String appid;
+
+    private String url;
 }
